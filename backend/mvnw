@@ -1,0 +1,4 @@
+#!/bin/sh
+# This script is used by Railway/CI when mvnw is called.
+# It delegates to the system Maven or the wrapper jar.
+exec mvn "$@"
